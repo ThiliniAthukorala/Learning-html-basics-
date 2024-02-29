@@ -18,7 +18,7 @@ body{
 
 }
 .clear{
-    
+    clear: both;
 }
 a{
     text-decoration: none;
@@ -177,5 +177,25 @@ a:active{
     color: white;
     padding: 10px;
     box-sizing: border-box;
+}
+.p-box{
+    margin-top: 30px;
+    width: 670px;
+    height: 500px;
+    border:1px black solid ;
+}
+.p{
+    position: relative;
+}
+
+.p-box h2{
+    position:absolute;
+   padding-left: 10px;
+}   
+
+.p-box h3{
+    position:absolute;
+    top: 56px;
+    padding-left: 10px;
 }
 
